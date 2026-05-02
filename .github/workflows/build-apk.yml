@@ -21,7 +21,7 @@ jobs:
         run: sh scripts/remove_proprietary_dependencies.sh
 
       - name: Set up JDK 17
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           distribution: 'temurin'
           java-version: '17'
