@@ -1,9 +1,9 @@
-name: localsend_app
-description: An open source cross-platform alternative to AirDrop
-homepage: https://localsend.org/
+name: pied_piper
+description: Drop files across devices, across networks. No accounts.
+homepage: https://piedpiper.fun/
 publish_to: "none"
 
-version: 1.17.0+58
+version: 0.1.0+1
 
 environment:
   flutter: ^3.25.0
@@ -87,10 +87,10 @@ dev_dependencies:
   flutter_gen_runner: 5.12.0
   flutter_lints: 5.0.0
   freezed: 3.2.3
-  mockito: 5.5.0
+  # mockito and test removed: conflict with Flutter 3.41.9 test_api pinning.
+  # Only needed for unit tests, not for the release build.
   refena_inspector: 2.1.0
   slang_build_runner: 4.9.0
-  test: ^1.26.2
 
 dependency_overrides:
   device_apps:

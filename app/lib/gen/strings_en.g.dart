@@ -46,8 +46,8 @@ class Translations implements BaseTranslations<AppLocale, Translations> {
   /// en: 'English'
   String get locale => 'English';
 
-  /// en: 'LocalSend'
-  String get appName => 'LocalSend';
+  /// en: 'Pied Piper'
+  String get appName => 'Pied Piper';
 
   late final TranslationsGeneralEn general = TranslationsGeneralEn.internal(_root);
   late final TranslationsReceiveTabEn receiveTab = TranslationsReceiveTabEn.internal(_root);
@@ -313,9 +313,9 @@ class TranslationsNetworkInterfacesPageEn {
   /// en: 'Network Interfaces'
   String get title => 'Network Interfaces';
 
-  /// en: 'By default, LocalSend uses all available network interfaces. You can exclude unwanted networks here. You need to restart the server to apply the changes.'
+  /// en: 'By default, Pied Piper uses all available network interfaces. You can exclude unwanted networks here. You need to restart the server to apply the changes.'
   String get info =>
-      'By default, LocalSend uses all available network interfaces. You can exclude unwanted networks here. You need to restart the server to apply the changes.';
+      'By default, Pied Piper uses all available network interfaces. You can exclude unwanted networks here. You need to restart the server to apply the changes.';
 
   /// en: 'Preview'
   String get preview => 'Preview';
@@ -422,8 +422,8 @@ class TranslationsReceiveOptionsPageEn {
   /// en: 'Save to folder'
   String get destination => _root.settingsTab.receive.destination;
 
-  /// en: '(LocalSend folder)'
-  String get appDirectory => '(LocalSend folder)';
+  /// en: '(Pied Piper folder)'
+  String get appDirectory => '(Pied Piper folder)';
 
   /// en: 'Save media to gallery'
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
@@ -519,8 +519,8 @@ class TranslationsWebSharePageEn {
   /// en: 'The PIN is "{pin}"'
   String pinHint({required Object pin}) => 'The PIN is "${pin}"';
 
-  /// en: 'LocalSend uses a self-signed certificate. You need to accept it in your browser.'
-  String get encryptionHint => 'LocalSend uses a self-signed certificate. You need to accept it in your browser.';
+  /// en: 'Pied Piper uses a self-signed certificate. You need to accept it in your browser.'
+  String get encryptionHint => 'Pied Piper uses a self-signed certificate. You need to accept it in your browser.';
 
   /// en: 'Pending requests: {n}'
   String pendingRequests({required Object n}) => 'Pending requests: ${n}';
@@ -534,8 +534,8 @@ class TranslationsAboutPageEn {
 
   // Translations
 
-  /// en: 'About LocalSend'
-  String get title => 'About LocalSend';
+  /// en: 'About Pied Piper'
+  String get title => 'About Pied Piper';
 
   List<String> get description => [
     'LocalSend is a free, open-source app that allows you to securely share files and messages with nearby devices over your local network without needing an internet connection.',

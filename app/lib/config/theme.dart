@@ -142,8 +142,9 @@ extension InputDecorationThemeExt on InputDecorationThemeData {
 }
 
 ColorScheme _determineColorScheme(ColorMode mode, Brightness brightness, DynamicColors? dynamicColors) {
+  // Pied Piper: near-black seed produces neutral palette matching piedpiper.fun
   final defaultColorScheme = ColorScheme.fromSeed(
-    seedColor: Colors.teal,
+    seedColor: const Color(0xFF0A0A0A),
     brightness: brightness,
   );
 
