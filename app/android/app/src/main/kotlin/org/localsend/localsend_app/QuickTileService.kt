@@ -9,6 +9,7 @@ import android.os.Build
 import android.service.quicksettings.TileService
 import android.util.Log
 import androidx.annotation.RequiresApi
+import `fun`.piedpiper.dotdrop.R
 
 /**
  * Service used to launch the app as a quick tile from the top/status bar
